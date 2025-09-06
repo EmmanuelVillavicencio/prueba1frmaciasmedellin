@@ -11,7 +11,7 @@ description = "picinas de Medellin"
 zoom_level = 13
 
 # 3. Especificar qué campos mostrar dentro de las ventanas emergentes de los marcadores
-popup_fields = ["name", "operator", "network", "ref"]
+popup_fields = ["name"]
 
 # 4. Descargar las características de las paradas de autobús de OpenStreetMap para el lugar elegido
 gdf = ox.features_from_place(place, tags=tags)
